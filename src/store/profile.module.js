@@ -26,6 +26,7 @@ const actions = {
         return data;
       })
       .catch(() => {
+        console.log("come on catch part")
         // #todo SET_ERROR cannot work in multiple states
         // context.commit(SET_ERROR, response.data.errors)
       });
@@ -38,6 +39,7 @@ const actions = {
         return data;
       })
       .catch(() => {
+        console.log("come on catch part")
         // #todo SET_ERROR cannot work in multiple states
         // context.commit(SET_ERROR, response.data.errors)
       });
@@ -50,6 +52,7 @@ const actions = {
         return data;
       })
       .catch(() => {
+        console.log("come on catch part")
         // #todo SET_ERROR cannot work in multiple states
         // context.commit(SET_ERROR, response.data.errors)
       });
